@@ -7,7 +7,7 @@ namespace TestesBenchmark
     {
         static void Main(string[] args)
         {
-            BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args);
+            new BenchmarkSwitcher(new [] { typeof(NewtonsoftVsSystemTextJson) }).Run(args);
         }
     }
 }

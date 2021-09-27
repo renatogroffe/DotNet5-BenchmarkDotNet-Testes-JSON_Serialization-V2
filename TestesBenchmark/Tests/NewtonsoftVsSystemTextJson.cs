@@ -3,7 +3,7 @@ using TestesBenchmark.Models;
 
 namespace TestesBenchmark.Tests
 {
-    public class Newtonsoft_vs_SystemTextJson
+    public class NewtonsoftVsSystemTextJson
     {
         private Regiao[] _regioes;
 
